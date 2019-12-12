@@ -2,7 +2,7 @@
 // @name        Gfycat Disable Autoplay Related GIFs
 // @match       *://*gfycat.com/*
 // @grant       none
-// @version     1.0
+// @version     1.0.1
 // @author      Dave Winfield
 // @description Turns off the "Autoplay Related GIFs" feature
 // @require     https://code.jquery.com/jquery-3.4.1.slim.min.js
