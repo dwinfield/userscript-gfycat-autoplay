@@ -6,7 +6,9 @@
 // @author      Dave Winfield
 // @description Turns off the "Autoplay Related GIFs" feature
 // @require     https://code.jquery.com/jquery-3.4.1.slim.min.js
-// @downloadURL 
+// @downloadURL https://raw.githubusercontent.com/dwinfield/userscript-gfycat-autoplay/master/gfycat.js
+// @supportURL  https://github.com/dwinfield/userscript-gfycat-autoplay
+// @homepageURL https://github.com/dwinfield/userscript-gfycat-autoplay
 // ==/UserScript==
 
 $(function() {  
