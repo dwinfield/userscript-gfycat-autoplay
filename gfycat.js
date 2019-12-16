@@ -11,12 +11,15 @@
 // @homepageURL https://github.com/dwinfield/userscript-gfycat-autoplay
 // ==/UserScript==
 
-$(function() {  
-  $('div.switch').each(function(i, elem) {    
-    var $input = $(elem).find('input');
-    //only toggle the click if the box is checked.
-    if ($input.prop("checked")) { 
-      $input.click();  
-    }
-  });
+$(function() { 
+  
+    $('div.switch').each(function(i, elem) {    
+      var $input = $(elem).find('input');
+      //only toggle the click if the box is checked.
+      if ($input.prop("checked")) { 
+        $input.click();  
+        $(elem).click();        
+      }
+    });
+  
 });
